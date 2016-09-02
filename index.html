@@ -6,10 +6,9 @@
 		<title>Accesorios Fashion</title>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	  	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/animate.css">	
-		<link rel="stylesheet" href="assets/css/icomoon.css">
 		<link rel="stylesheet" href="assets/css/queries.css">
+		<link rel="stylesheet" href="assets/css/icomoon.css">
 		<link rel="stylesheet" href="assets/css/slick.css">
 		<link rel="stylesheet" href="assets/css/slick-theme.css">
 		<link rel="stylesheet" href="assets/css/contact.css">
@@ -19,19 +18,17 @@
 		<header>
 			<div class="container-fluid">
 				<div class="row"><!-- Barra de Navegacion-->
-					<div class="col-md-6">
-						<p>Default Welcome Msg!</p>
-					</div>
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<nav class="navbar navbar-static-top navbar-default" role="navigation"><!--Barra de Navegacion-->
 			                <div class="navbar-header">
 			                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 			                        <span class="icon-bar"></span>
 			                        <span class="icon-bar"></span>
 			                        <span class="icon-bar"></span>
-			                    </button>
+			                    </button>  
 			                </div>
 			                <div class="collapse navbar-collapse" id="myNavbar">
+			                	<p class="disp-in"><small>Default Welcome Msg!</small></p>
 			                    <ul class="nav navbar-nav">
 									<li class="dropdown"><!--3navegadores desplegables inicio-->
 								        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="assets/images/flag1.png" alt="Inglaterra"/>Lenguaje<span class="caret"></span></a>
@@ -64,19 +61,19 @@
 			    </div>
 			    <div class="row"><!-- Encabezado y barra de busqueda-->
 					<div class="col-md-3">
-						<img src="assets/images/tiempo.png" alt="Reloj"/>
+						<img class="img-responsive disp-in marg-left" src="assets/images/tiempo.png" alt="Reloj"/>
 						<h6>OPENING TIME</h6>
 						<p>9:00 AM - 10:00 PM</p>
 					</div>
-					<div class="col-md-4">
-						<img src="assets/images/logo.png" alt="Accesorios Fashion">
+					<div class="col-md-6">
+						<img class="img-responsive logo" src="assets/images/logo.png" alt="Accesorios Fashion">
 					</div>
-					<div class="col-md-5">
-						<input type="text" placeholder="search">
+					<div class="col-md-3">
+						<input type="text" placeholder=" search">
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12"><!-- Barra de Navegacion interna HOME Y CONTACT (falta linkear)-->
+				<div class="row"><!-- Barra de Navegacion interna HOME Y CONTACT (falta linkear)-->
+					<div class="col-md-12">
 						<nav class="navbar navbar-static-top navbar-default" role="navigation"><!--Barra de Navegacion-->
 			                <div class="navbar-header">
 			                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -88,7 +85,7 @@
 			                <div class="collapse navbar-collapse" id="myNavbar">
 			                    <ul class="nav navbar-nav">
 									<li class="active"><a href="#">HOME <span class="sr-only"></span></a></li>
-									<li><a href="#">CONTACT US</a></li>
+									<li><a href="contact.html" target="_blanck">CONTACT US</a></li>
 			                    </ul>
 			                </div>
 			            </nav>
@@ -108,10 +105,10 @@
 				</div>
 				<div class="row"><!--  fotos a 2 columnas(falta texto encima)-->
 					<div class="col-md-5">
-						<img src="assets/images/banner1.jpg" alt="Banner 1">
+						<img class="img-2 img-responsive" src="assets/images/banner1.jpg" alt="Banner 1">
 					</div>
 					<div class="col-md-7">
-						<img src="assets/images/banner2.jpg" alt="Banner 2">
+						<img class="img-2 img-responsive" src="assets/images/banner2.jpg" alt="Banner 2">
 					</div>
 				</div>
 				<div class="row"><!-- Slide de texto (falta meterle el slide)-->
@@ -139,24 +136,26 @@
 						<img src="assets/images/a1.jpg" alt="guantes">
 					</div>
 				</div>
-				<div class="row"><!-- background image y patrocinadores encima-->
-					<div class="col-md-2">
-						<img src="assets/images/client1.jpg" alt="Activeden"/>
-					</div>
-					<div class="col-md-2">
-						<img src="assets/images/client2.jpg" alt="Activeden"/>
-					</div>
-					<div class="col-md-2">
-						<img src="assets/images/client3.jpg" alt="Activeden"/>
-					</div>
-					<div class="col-md-2">
-						<img src="assets/images/client4.jpg" alt="Activeden"/>
-					</div>
-					<div class="col-md-2">
-						<img src="assets/images/client5.jpg" alt="Activeden"/>
-					</div>
-					<div class="col-md-2">
-						<img src="assets/images/client6.jpg" alt="Activeden"/>
+				<div class="row "><!-- background image y patrocinadores encima-->
+					<div class="bkg-image">
+						<div class="col-md-2">
+							<img src="assets/images/client1.jpg" alt="Activeden"/>
+						</div>
+						<div class="col-md-2">
+							<img src="assets/images/client2.jpg" alt="Activeden"/>
+						</div>
+						<div class="col-md-2">
+							<img src="assets/images/client3.jpg" alt="Activeden"/>
+						</div>
+						<div class="col-md-2">
+							<img src="assets/images/client4.jpg" alt="Activeden"/>
+						</div>
+						<div class="col-md-2">
+							<img src="assets/images/client5.jpg" alt="Activeden"/>
+						</div>
+						<div class="col-md-2">
+							<img src="assets/images/client6.jpg" alt="Activeden"/>
+						</div>
 					</div>
 				</div>
 				<div class="row"><!-- Slide 2 de texto (falta meterle el slide)-->
@@ -164,33 +163,33 @@
 						<hr>
 						<hr>
 						<ul>
-							<li>CLOTHING</li>
+							<li><strong>CLOTHING</strong></li>
 							<li>EQUIPMENTS</li>
 							<li>JEWELLERY</li>
 						</ul>
 					</div>
 				</div>
-				<!-- Don renglones de fotos con texto col 4-->
+				<!-- Dos renglones de fotos con texto col 4-->
 				<div class="row"><!-- Primer renglon de fotos con texto col 4-->
 					<div class="col-md-4">
-						<img src="assets/images/a2.jpg" alt="guantes">
+						<img class="img-responsive img-thumbnail" src="assets/images/a2.jpg" alt="guantes">
 					</div>
 					<div class="col-md-4">
-						<img src="assets/images/a2.jpg" alt="guantes">
+						<img class="img-responsive img-thumbnail" src="assets/images/a2.jpg" alt="guantes">
 					</div>
 					<div class="col-md-4">
-						<img src="assets/images/a2.jpg" alt="guantes">
+						<img class="img-responsive img-thumbnail" src="assets/images/a2.jpg" alt="guantes">
 					</div>
 				</div>
 				<div class="row"><!-- Segundo renglon de fotos con texto col 4-->
 					<div class="col-md-4">
-						<img src="assets/images/a2.jpg" alt="guantes">
+						<img class="img-responsive img-thumbnail" src="assets/images/a2.jpg" alt="guantes">
 					</div>
 					<div class="col-md-4">
-						<img src="assets/images/a2.jpg" alt="guantes">
+						<img class="img-responsive img-thumbnail" src="assets/images/a2.jpg" alt="guantes">
 					</div>
 					<div class="col-md-4">
-						<img src="assets/images/a2.jpg" alt="guantes">
+						<img class="img-responsive img-thumbnail" src="assets/images/a2.jpg" alt="guantes">
 					</div>
 				</div>
 				<div class="row"><!-- BLOGS-->
@@ -200,43 +199,52 @@
 						</ul>
 					</div>
 				</div>
-				<div class="row"><!--Fotos col 3 con texto  antes de los btons-->
+				<div class="row"><!--Fotos col 3 con texto  antes de los btons /terminada/-->
 					<div class="col-md-3">
-						<img src="assets/images/blog1.jpg" alt="">
-						<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
-						<p> Voluptate eligendi consequatur, aspernatur animi provident laborum voluptatibus perspiciatis cum, fugiat autem nemo quo illum nostrum culpa, quam ratione natus enim beatae!</p>
+						<img class="img-responsive" src="assets/images/blog1.jpg" alt="">
+						<h5>THE SAMPLE HEADING TITLE</h5>
+						<h6>27/11/2015</h6>
+						<p> Voluptate eligendi consequatur, aspernatur animi provident laborum voluptatibus perspiciatis cum...</p>
+						<a href="#">Read more...</a>
 					</div>
 					<div class="col-md-3">
-						<img src="assets/images/blog2.jpg" alt="">
-						<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
-						<p> Voluptate eligendi consequatur, aspernatur animi provident laborum voluptatibus perspiciatis cum, fugiat autem nemo quo illum nostrum culpa, quam ratione natus enim beatae!</p>
+						<img class="img-responsive" src="assets/images/blog2.jpg" alt="">
+						<h5>THE SAMPLE HEADING TITLE</h5>
+						<h6>27/11/2015</h6>
+						<p> Voluptate eligendi consequatur, aspernatur animi provident laborum voluptatibus perspiciatis cum...</p>
+						<a href="#">Read more...</a>
 					</div>
 					<div class="col-md-3">
-						<img src="assets/images/blog3.jpg" alt="">
-						<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
-						<p> Voluptate eligendi consequatur, aspernatur animi provident laborum voluptatibus perspiciatis cum, fugiat autem nemo quo illum nostrum culpa, quam ratione natus enim beatae!</p>
+						<img class="img-responsive" src="assets/images/blog3.jpg" alt="">
+						<h5>THE SAMPLE HEADING TITLE</h5>
+						<h6>27/11/2015</h6>
+						<p> Voluptate eligendi consequatur, aspernatur animi provident laborum voluptatibus perspiciatis cum...</p>
+						<a href="#">Read more...</a>
 					</div>
 					<div class="col-md-3">
-						<img src="assets/images/blog1.jpg" alt="">
-						<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
-						<p> Voluptate eligendi consequatur, aspernatur animi provident laborum voluptatibus perspiciatis cum, fugiat autem nemo quo illum nostrum culpa, quam ratione natus enim beatae!</p>
+						<img class="img-responsive" src="assets/images/blog1.jpg" alt="">
+						<h5>THE SAMPLE HEADING TITLE</h5>
+						<h6>27/11/2015</h6>
+						<p> Voluptate eligendi consequatur, aspernatur animi provident laborum voluptatibus perspiciatis cum...</p>
+						<a href="#">Read more...</a>
 					</div>
 				</div>
 				<div class="row"><!--3 BOTONES-->
 					<div class="col-md-4">
-						<button>ORDEN OLINE NOW</button>
+						<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>ORDEN OLINE NOW <br> <small>Call Us:(0123)456789</small></button>
 					</div>
 					<div class="col-md-4">
-						<button>ORDEN OLINE NOW</button>
+						<button type="button" class="btn btn-default">FREE WORLDWIDE SHIPPING <br> <small>On Order Over $100</small></button>
 					</div>
 					<div class="col-md-4">
-						<button>ORDEN OLINE NOW</button>
+						<button type="button" class="btn btn-default">30 DAYS MONEY BACK 100% <small>Satisfaction Guarantee</small></button>
 					</div>
 				</div>
-				<div class="row"><!--Fotos col 3 con texto  antes de los btons-->
+				<div class="row bkg-sec-cont"><!--Fotos col 3 con texto desp de los btons-->
 					<div class="col-md-3">
 						<h5>ACCESORIES</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sint quas obcaecati a optio, pariatur laborum recusandae libero. Nesciunt ipsum architecto consectetur tempore praesentium dolor commodi pariatur magni aliquid incidunt.</p>
+						===iconos====
 					</div>
 					<div class="col-md-2">
 						<h5>MY ACCOUNT</h5>
@@ -278,14 +286,13 @@
 				</div>
 			</div>
 		</section>
-		<footer><!--FOOTER-->
-			<div class="container-fluid">
+		<footer><!--FOOTER (terminado)-->
+			<div class="container-fluid bkg-footer">
 				<div class="row">
-					<div class="col-md-6"><!--derechos reservados-->
+					<div class="col-md-6 text-white"><!--derechos reservados-->
 						<p>Copyright© 2015 <a href="#">BootExperts</a>All rights reserved.</p>
-						
 					</div>
-					<div class="col-md-6"><!--iconos legales-->
+					<div class="col-md-6 text-right"><!--iconos legales-->
 						<img src="assets/images/payment.png" alt="LEGALES">
 					</div>
 				</div>
